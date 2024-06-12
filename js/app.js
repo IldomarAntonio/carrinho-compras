@@ -1,3 +1,6 @@
+let totalGeral = 0
+document.getElementById('lista-produtos').innerHTML = '';
+document.getElementById('valor-total').innerHTML = '';
 function adicionar() {
     let produtoSelect = document.getElementById('produto');
     let quantidadeInput = document.getElementById('quantidade');
